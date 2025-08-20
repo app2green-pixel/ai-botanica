@@ -331,6 +331,10 @@ def add_info():
 
     knowledge_base[argomento][sottoargomento] = info
     return jsonify({"successo": f"Informazioni su '{sottoargomento}' aggiunte correttamente"}), 200
+    
+@app.route("/")
+def home():
+        return"BENVENUTO"
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
