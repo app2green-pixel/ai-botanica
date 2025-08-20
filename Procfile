@@ -1,1 +1,1 @@
-web: gunicorn botanica_ai:app
+web: gunicorn botanica_ai_pkg.botanica_ai:app
