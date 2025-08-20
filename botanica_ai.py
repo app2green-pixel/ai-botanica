@@ -297,6 +297,16 @@ knowledge_base = {
 } 
 
 # Funzione per interrogare la knowledge base
+def load_knowledge():
+    try:
+        with open("knowledge.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:return{}
+
+def save_knowledge(data):
+    with open("knowledge.json", "w", encoding="utf-8") as f:json.dump(data, f, indent=4, ensure_ascii=False)
+knowledge = load_knowledge()
+
 def ask_bot(topic, subtopic=None, detail=None):
     try:
         if subtopic:
