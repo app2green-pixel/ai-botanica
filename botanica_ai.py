@@ -128,7 +128,7 @@ knowledge_base = {
             "Tipi": {
                 "Secco": "Non carnoso, es. nocciola.",
                 "Carnoso": "Polposo, es. mela, pesca."
-            }
+            },
             "Funzione": "Protegge il seme e favorisce la dispersione."
         },
         "Seme": {
