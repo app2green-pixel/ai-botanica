@@ -1,10 +1,10 @@
 from flask import Flask, request, jsonify
-import json, os
+from plants_data import plants_info
 
 app = Flask(__name__)
 
-# Knowledge base con tutte le informazioni integrate
-knowledge_base = {
+# plants_data con tutte le informazioni integrate
+plants_data = {
     "pianta": {
         "albero": {
             "descrizione": "Pianta legnosa con un tronco principale e rami.",
@@ -296,57 +296,13 @@ knowledge_base = {
     } 
 } 
 
-# Funzione per interrogare la knowledge base
-def load_knowledge():
-    try:
-        with open("knowledge.json", "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:return{}
-
-def save_knowledge(data):
-    with open("knowledge.json", "w", encoding="utf-8") as f:json.dump(data, f, indent=4, ensure_ascii=False)
-knowledge = load_knowledge()
-
-def ask_bot(topic, subtopic=None, detail=None):
-    try:
-        if subtopic:
-            data = knowledge_base[topic][subtopic]
-            if detail:
-                return data.get(detail, f"Nessuna informazione su '{detail}'")
-            return data
-        return knowledge_base.get(topic, "Argomento non trovato")
-    except KeyError:
-        return "Argomento o sottoargomento non trovato"
-
+# Funzione per interrogare la plants_data
 # Endpoint per App Inventor
-@app.route('/ask', methods=['POST'])
-def ask():
-    topic = request.args.get('topic')
-    subtopic = request.args.get('subtopic')
-    detail = request.args.get('detail')
-    response = ask_bot(topic, subtopic, detail)
-    return jsonify(response)
-
-@app.route('/add_info', methods=['POST'])
-def add_info():
-    data = request.json
-    argomento = data.get("argomento", "").lower()
-    sottoargomento = data.get("sottoargomento", "").lower()
-    info = data.get("info", {})
-
-    if not argomento or not sottoargomento or not info:
-        return jsonify({"errore": "Devi specificare argomento, sottoargomento e info"}), 400
-
-    if argomento not in knowledge_base:
-        knowledge_base[argomento] = {}
-
-    knowledge_base[argomento][sottoargomento] = info
-    return jsonify({"successo": f"Informazioni su '{sottoargomento}' aggiunte correttamente"}), 200
+@app.route('/get_info', methods=['POST'])
+def get_info():
+        data = request.get_json()
+        plant_name = data.get('plant')
+        answer = plants_data.get(plant_name, "non ho informazioni")
+        return jsonify({"answer":answer})
     
-@app.route("/")
-def home():
-        return"BENVENUTO"
-
-if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+if __name__ == '__main__':app.run(debug=True)
