@@ -316,7 +316,7 @@ def ask():
     response = ask_bot(topic, subtopic, detail)
     return jsonify(response)
 
-    @app.route('/add_info', methods=['POST'])
+@app.route('/add_info', methods=['POST'])
 def add_info():
     data = request.json
     argomento = data.get("argomento", "").lower()
