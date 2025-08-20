@@ -150,7 +150,7 @@ knowledge_base = {
                 "Sabbioso": "Drena velocemente, povero di nutrienti.",
                 "Limoso": "Fertile, trattenimento equilibrato d’acqua.",
                 "Torba": "Acido e povero di nutrienti, ideale per piante carnivore."
-            }
+            },
             "Nutrienti principali": ["Azoto", "Fosforo", "Potassio", "Magnesio", "Calcio"]
         },
         "Malattie comuni": {
