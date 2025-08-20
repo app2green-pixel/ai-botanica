@@ -308,7 +308,7 @@ def ask_bot(topic, subtopic=None, detail=None):
         return "Argomento o sottoargomento non trovato"
 
 # Endpoint per App Inventor
-@app.route('/ask', methods=['GET'])
+@app.route('/ask', methods=['POST'])
 def ask():
     topic = request.args.get('topic')
     subtopic = request.args.get('subtopic')
