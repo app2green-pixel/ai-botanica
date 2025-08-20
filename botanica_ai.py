@@ -64,251 +64,236 @@ knowledge_base = {
             "habitat": "Zone aride, deserti",
             "esempi": "Aloe, Echeveria, Sedum",
             "uso": "Decorazione, alcune medicinali"
-  "Pianta": {
-        "Definizione": "Organismo autotrofo che produce il proprio cibo tramite fotosintesi, dotato di radici, fusto e foglie.",
-        "Riproduzione": {
-            "Sessuale": "Avviene tramite semi generati da fiori.",
-            "Asessuale": "Avviene tramite talee, rizomi o stoloni."
         },
         "Fasi di crescita": {
             "Germinazione": "Il seme assorbe acqua, rompe il tegumento e spunta la radichetta.",
             "Crescita vegetativa": "La pianta sviluppa radici, fusto e foglie.",
             "Fioritura": "Produzione dei fiori per la riproduzione sessuale.",
             "Fruttificazione": "Produzione di frutti contenenti semi."
-        }
-    },
-    "Pianta carnivora": {
-        "Definizione": "Pianta che cattura e digerisce piccoli animali per ottenere nutrienti.",
-        "Habitat": "Terreni poveri di nutrienti, spesso paludosi.",
-        "Metodi di cattura": {
-            "Trappola a scatto": "Esempio: Dionaea muscipula (Venere acchiappamosche).",
-            "Trappola a succhio": "Esempio: Utricularia, cattura piccole prede acquatiche.",
-            "Trappola a tappo": "Esempio: Nepenthes, insetti cadono nella foglia a forma di brocca."
         },
-        "Cibo": "Insetti, ragni, piccoli invertebrati."
-    },
-    "Pianta da frutto": {
-        "Definizione": "Pianta che produce frutti commestibili.",
-        "Esempi": ["Melo", "Pero", "Ciliegio", "Fragola"],
-        "Cura": {
-            "Annaffiatura": "Regolare, evitando ristagni d'acqua.",
-            "Concimazione": "Fertilizzante equilibrato in primavera.",
-            "Potatura": "Rimuovere rami secchi o malati per favorire frutti."
-        }
-    },
-    "Fotosintesi": {
-        "Definizione": "Processo tramite cui le piante producono glucosio e ossigeno usando luce solare, acqua e CO2.",
-        "Formula chimica": "6 CO2 + 6 H2O + luce → C6H12O6 + 6 O2",
-        "Luogo": "Cloroplasti delle cellule vegetali."
-    },
-    "Radice": {
-        "Funzione": "Ancorare la pianta al terreno e assorbire acqua e nutrienti.",
-        "Tipi": {
-            "Pivotante": "Radice principale più spessa con radici secondarie, es. carota.",
-            "Fascicolata": "Molte radici sottili simili tra loro, es. grano."
-        }
-    }
-    "Foglia": {
-        "Funzione": "Organo fotosintetico principale della pianta, permette scambio di gas.",
-        "Tipi": {
-            "Semplice": "Foglia con una sola lamina, es. quercia.",
-            "Composta": "Foglia divisa in più foglioline, es. trifoglio."
+        "Pianta da frutto": {
+            "Definizione": "Pianta che produce frutti commestibili.",
+            "Esempi": ["Melo", "Pero", "Ciliegio", "Fragola"],
+            "Cura": {
+                "Annaffiatura": "Regolare, evitando ristagni d'acqua.",
+                "Concimazione": "Fertilizzante equilibrato in primavera.",
+                "Potatura": "Rimuovere rami secchi o malati per favorire frutti."
+            }
         },
-        "Adattamenti": {
-            "Spine": "Foglie trasformate in spine per difesa, es. cactus.",
-            "Succhianti": "Foglie modificate per assorbire acqua, es. piante carnivore acquatiche."
-        }
-    },
-    "Fusto": {
-        "Funzione": "Sostiene la pianta, trasporta acqua e nutrienti tra radici e foglie.",
-        "Tipi": {
-            "Erbaceo": "Fusto morbido e verde, breve durata, es. girasole.",
-            "Legnoso": "Fusto duro e persistente, es. quercia."
-        }
-    },
-    "Fiore": {
-        "Funzione": "Organo riproduttivo della pianta.",
-        "Parti": {
-            "Sepali": "Proteggono il fiore in boccio.",
-            "Petali": "Attraggono gli insetti impollinatori.",
-            "Stami": "Organi maschili, producono polline.",
-            "Carpello": "Organo femminile, contiene ovuli."
+        "Fotosintesi": {
+            "Definizione": "Processo tramite cui le piante producono glucosio e ossigeno usando luce solare, acqua e CO2.",
+            "Formula chimica": "6 CO2 + 6 H2O + luce → C6H12O6 + 6 O2",
+            "Luogo": "Cloroplasti delle cellule vegetali."
         },
-        "Tipi di impollinazione": {
-            "Abiotic": "Impollinazione tramite vento o acqua.",
-            "Biotic": "Impollinazione tramite animali, es. api, farfalle."
-        }
-    },
-    "Frutto": {
-        "Definizione": "Struttura derivata dall’ovario del fiore contenente semi.",
-        "Tipi": {
-            "Secco": "Non carnoso, es. nocciola.",
-            "Carnoso": "Polposo, es. mela, pesca."
+        "Radice": {
+            "Funzione": "Ancorare la pianta al terreno e assorbire acqua e nutrienti.",
+            "Tipi": {
+                "Pivotante": "Radice principale più spessa con radici secondarie, es. carota.",
+                "Fascicolata": "Molte radici sottili simili tra loro, es. grano."
+            }
         },
-        "Funzione": "Protegge il seme e favorisce la dispersione."
-    },
-    "Seme": {
-        "Definizione": "Struttura contenente embrione e riserve nutritive per la germinazione.",
-        "Parti": {
-            "Embrione": "Futuro germoglio della pianta.",
-            "Endosperma": "Riserva nutritiva per l’embrione.",
-            "Testa o tegumento": "Rivestimento protettivo esterno."
+        "Foglia": {
+            "Funzione": "Organo fotosintetico principale della pianta, permette scambio di gas.",
+            "Tipi": {
+                "Semplice": "Foglia con una sola lamina, es. quercia.",
+                "Composta": "Foglia divisa in più foglioline, es. trifoglio."
+            },
+            "Adattamenti": {
+                "Spine": "Foglie trasformate in spine per difesa, es. cactus.",
+                "Succhianti": "Foglie modificate per assorbire acqua, es. piante carnivore acquatiche."
+            },
         },
-        "Strategie di dispersione": {
-            "Vento": "Semi leggeri con strutture alari, es. acero.",
-            "Acqua": "Semi galleggianti, es. cocco.",
-            "Animali": "Semi con uncini o frutti commestibili, es. lampone."
-        }
-    },
-    "Terreno": {
-        "Tipi": {
-            "Argilloso": "Trattiene molta acqua, compatto.",
-            "Sabbioso": "Drena velocemente, povero di nutrienti.",
-            "Limoso": "Fertile, trattenimento equilibrato d’acqua.",
-            "Torba": "Acido e povero di nutrienti, ideale per piante carnivore."
+        "Fusto": {
+            "Funzione": "Sostiene la pianta, trasporta acqua e nutrienti tra radici e foglie.",
+            "Tipi": {
+                "Erbaceo": "Fusto morbido e verde, breve durata, es. girasole.",
+                "Legnoso": "Fusto duro e persistente, es. quercia."
+            }
         },
-        "Nutrienti principali": ["Azoto", "Fosforo", "Potassio", "Magnesio", "Calcio"]
-    },
-    "Malattie comuni": {
-        "Marciume radicale": "Causato da funghi, le radici diventano molli e nere.",
-        "Oidio": "Fungo che forma polvere bianca sulle foglie.",
-        "Peronospora": "Fungo che provoca macchie gialle e marroni sulle foglie.",
-        "Virus del mosaico": "Causa macchie verdi e gialle irregolari sulle foglie."
-    }
-    "Piante officinali": {
-        "Camomilla": {
-            "Uso": "Calmante, digestivo, antinfiammatorio.",
-            "Parte utilizzata": "Fiori."
+        "Fiore": {
+            "Funzione": "Organo riproduttivo della pianta.",
+            "Parti": {
+                "Sepali": "Proteggono il fiore in boccio.",
+                "Petali": "Attraggono gli insetti impollinatori.",
+                "Stami": "Organi maschili, producono polline.",
+                "Carpello": "Organo femminile, contiene ovuli."
+            },
+            "Tipi di impollinazione": {
+                "Abiotic": "Impollinazione tramite vento o acqua.",
+                "Biotic": "Impollinazione tramite animali, es. api, farfalle."
+            }
         },
-        "Menta": {
-            "Uso": "Digestivo, rinfrescante, aromaterapia.",
-            "Parte utilizzata": "Foglie."
+        "Frutto": {
+            "Definizione": "Struttura derivata dall’ovario del fiore contenente semi.",
+            "Tipi": {
+                "Secco": "Non carnoso, es. nocciola.",
+                "Carnoso": "Polposo, es. mela, pesca."
+            }
+            "Funzione": "Protegge il seme e favorisce la dispersione."
         },
-        "Lavanda": {
-            "Uso": "Rilassante, antibatterico, cosmetico.",
-            "Parte utilizzata": "Fiori."
+        "Seme": {
+            "Definizione": "Struttura contenente embrione e riserve nutritive per la germinazione.",
+            "Parti": {
+                "Embrione": "Futuro germoglio della pianta.",
+                "Endosperma": "Riserva nutritiva per l’embrione.",
+                "Testa o tegumento": "Rivestimento protettivo esterno."
+            },
+            "Strategie di dispersione": {
+                "Vento": "Semi leggeri con strutture alari, es. acero.",
+                "Acqua": "Semi galleggianti, es. cocco.",
+                "Animali": "Semi con uncini o frutti commestibili, es. lampone."
+            }
         },
-        "Aloe Vera": {
-            "Uso": "Cicatrizzante, idratante, digestivo.",
-            "Parte utilizzata": "Gel interno foglia."
-        }
-    },
-    "Alberi comuni": {
-        "Quercia": {
-            "Tipo": "Legnoso, deciduo.",
-            "Usi": "Legname, ombra, estetico.",
-            "Foglie": "Lobate, alterne."
+        "Terreno": {
+            "Tipi": {
+                "Argilloso": "Trattiene molta acqua, compatto.",
+                "Sabbioso": "Drena velocemente, povero di nutrienti.",
+                "Limoso": "Fertile, trattenimento equilibrato d’acqua.",
+                "Torba": "Acido e povero di nutrienti, ideale per piante carnivore."
+            }
+            "Nutrienti principali": ["Azoto", "Fosforo", "Potassio", "Magnesio", "Calcio"]
         },
-        "Pino": {
-            "Tipo": "Legnoso, sempreverde.",
-            "Usi": "Legname, resina, estetico.",
-            "Foglie": "Ago, gruppi di 2-5."
+        "Malattie comuni": {
+            "Marciume radicale": "Causato da funghi, le radici diventano molli e nere.",
+            "Oidio": "Fungo che forma polvere bianca sulle foglie.",
+            "Peronospora": "Fungo che provoca macchie gialle e marroni sulle foglie.",
+            "Virus del mosaico": "Causa macchie verdi e gialle irregolari sulle foglie."
         },
-        "Betulla": {
-            "Tipo": "Legnoso, deciduo.",
-            "Usi": "Estetico, legno leggero.",
-            "Foglie": "Cuoriformi, margine seghettato."
-        }
-    },
-    "Erbe comuni": {
-        "Basilico": {
-            "Uso": "Cucina, aromatica.",
-            "Parte utilizzata": "Foglie."
+        "Tecniche di coltivazione": {
+            "Semina diretta": "Piantare i semi direttamente nel terreno.",
+            "Trapianto": "Coltivare piantine in vasi e poi spostarle nel terreno.",
+            "Propagazione per talea": "Tagliare e radicare parti di pianta madre.",
+            "Coltivazione idroponica": "Coltivazione senza terra, nutrienti disciolti in acqua.",
+            "Coltivazione aeroponica": "Radici sospese in aria nebulizzate con nutrienti."
         },
-        "Rosmarino": {
-            "Uso": "Cucina, aromatico, medicinale.",
-            "Parte utilizzata": "Foglie."
+        "Piante officinali": {
+            "Camomilla": {
+                "Uso": "Calmante, digestivo, antinfiammatorio.",
+                "Parte utilizzata": "Fiori."
+            },
+            "Menta": {
+                "Uso": "Digestivo, rinfrescante, aromaterapia.",
+                "Parte utilizzata": "Foglie."
+            },
+            "Lavanda": {
+                "Uso": "Rilassante, antibatterico, cosmetico.",
+                "Parte utilizzata": "Fiori."
+            },
+            "Aloe Vera": {
+                "Uso": "Cicatrizzante, idratante, digestivo.",
+                "Parte utilizzata": "Gel interno foglia."
+            }
         },
-        "Origano": {
-            "Uso": "Cucina, aromatico, antibatterico.",
-            "Parte utilizzata": "Foglie."
-        }
-    },
-    "Nutrienti specifici": {
-        "Azoto (N)": "Favorisce crescita fogliare e colore verde intenso.",
-        "Fosforo (P)": "Favorisce radici e fioritura.",
-        "Potassio (K)": "Favorisce resistenza a stress e qualità frutti.",
-        "Magnesio (Mg)": "Componente della clorofilla, essenziale per fotosintesi.",
-        "Calcio (Ca)": "Favorisce struttura cellulare e crescita."
-    },
-    "Insetti utili": {
-        "Ape": "Impollinatore, aumenta produzione di frutti e semi.",
-        "Coccinella": "Mangia afidi e parassiti fogliari.",
-        "Bombus": "Impollinatore di piante di grandi dimensioni e serre."
-    },
-    "Parassiti": {
-        "Afide": "Insetto succhiatore, provoca accartocciamento foglie e indebolimento.",
-        "Tripide": "Piccolo insetto che danneggia foglie e fiori.",
-        "Nematodi": "Piccoli vermi che attaccano radici, riducendo crescita.",
-        "Mosca bianca": "Insetto succhiatore che indebolisce foglie e diffonde virus."
-    },
-    "Piante carnivore": {
-        "Venere acchiappamosche": {
-            "Cibo": "Insetti piccoli, mosche, formiche.",
-            "Meccanismo": "Foglie che si chiudono rapidamente al contatto."
+        "Alberi comuni": {
+            "Quercia": {
+                "Tipo": "Legnoso, deciduo.",
+                "Usi": "Legname, ombra, estetico.",
+                "Foglie": "Lobate, alterne."
+            },
+            "Pino": {
+                "Tipo": "Legnoso, sempreverde.",
+                "Usi": "Legname, resina, estetico.",
+                "Foglie": "Ago, gruppi di 2-5."
+            },
+            "Betulla": {
+                "Tipo": "Legnoso, deciduo.",
+                "Usi": "Estetico, legno leggero.",
+                "Foglie": "Cuoriformi, margine seghettato."
+            }
         },
-        "Nepenthes": {
-            "Cibo": "Insetti, piccoli animali caduti nella trappola.",
-            "Meccanismo": "Trappola a forma di brocca con liquido digestivo."
+        "Erbe comuni": {
+            "Basilico": {
+                "Uso": "Cucina, aromatica.",
+                "Parte utilizzata": "Foglie."
+            },
+            "Rosmarino": {
+                "Uso": "Cucina, aromatico, medicinale.",
+                "Parte utilizzata": "Foglie."
+            },
+            "Origano": {
+                "Uso": "Cucina, aromatico, antibatterico.",
+                "Parte utilizzata": "Foglie."
+            }
         },
-        "Drosera": {
-            "Cibo": "Insetti piccoli.",
-            "Meccanismo": "Foglie coperte di peli ghiandolari appiccicosi."
-        }
-    }
-    "Piante acquatiche": {
-        "Loto": {
-            "Ambiente": "Acqua dolce stagnante, laghi, stagni.",
-            "Parti": "Fiori, foglie, radici commestibili.",
-            "Curiosità": "Foglie idrorepellenti."
+        "Nutrienti specifici": {
+            "Azoto (N)": "Favorisce crescita fogliare e colore verde intenso.",
+            "Fosforo (P)": "Favorisce radici e fioritura.",
+            "Potassio (K)": "Favorisce resistenza a stress e qualità frutti.",
+            "Magnesio (Mg)": "Componente della clorofilla, essenziale per fotosintesi.",
+            "Calcio (Ca)": "Favorisce struttura cellulare e crescita."
         },
-        "Ninfea": {
-            "Ambiente": "Acqua dolce stagnante.",
-            "Parti": "Fiori decorativi.",
-            "Curiosità": "Galleggia grazie a rizomi."
+        "Insetti utili": {
+            "Ape": "Impollinatore, aumenta produzione di frutti e semi.",
+            "Coccinella": "Mangia afidi e parassiti fogliari.",
+            "Bombus": "Impollinatore di piante di grandi dimensioni e serre."
         },
-        "Ceratophyllum": {
-            "Ambiente": "Acqua dolce, acquari.",
-            "Funzione": "Ossigenazione acqua."
-        }
-    },
-    "Piante ornamentali": {
-        "Rosa": {
-            "Uso": "Decorativa e profumata.",
-            "Colore fiori": "Variabile (rosso, rosa, bianco)."
+        "Parassiti": {
+            "Afide": "Insetto succhiatore, provoca accartocciamento foglie e indebolimento.",
+            "Tripide": "Piccolo insetto che danneggia foglie e fiori.",
+            "Nematodi": "Piccoli vermi che attaccano radici, riducendo crescita.",
+            "Mosca bianca": "Insetto succhiatore che indebolisce foglie e diffonde virus."
         },
-        "Orchidea": {
-            "Uso": "Decorativa.",
-            "Ambiente": "Tropicale, umidità alta."
+        "Piante carnivore": {
+            "Venere acchiappamosche": {
+                "Cibo": "Insetti piccoli, mosche, formiche.",
+                "Meccanismo": "Foglie che si chiudono rapidamente al contatto."
+            },
+            "Nepenthes": {
+                "Cibo": "Insetti, piccoli animali caduti nella trappola.",
+                "Meccanismo": "Trappola a forma di brocca con liquido digestivo."
+            },
+            "Drosera": {
+                "Cibo": "Insetti piccoli.",
+                "Meccanismo": "Foglie coperte di peli ghiandolari appiccicosi."
+            }
         },
-        "Giglio": {
-            "Uso": "Decorativa e profumata.",
-            "Fioritura": "Primavera-estate."
-        }
-    },
-    "Ciclo vitale delle piante": {
-        "Semi": "Germinazione dipende da acqua, temperatura, luce.",
-        "Germoglio": "Sviluppo radici e foglie.",
-        "Pianta giovane": "Crescita vegetativa e fotosintesi.",
-        "Fioritura": "Formazione fiori e riproduzione sessuata.",
-        "Frutti e semi": "Produzione di semi per nuova generazione.",
-        "Morte": "Termine ciclo vitale, ritorno sostanze al suolo."
-    },
-    "Condizioni di crescita": {
-        "Luce": "Necessaria per fotosintesi; intensità e durata dipendono da specie.",
-        "Acqua": "Regolazione idrica essenziale; troppa o poca può uccidere.",
-        "Suolo": "pH, nutrienti, drenaggio influenzano salute.",
-        "Temperatura": "Specie tropicali, temperate o alpine hanno diverse tolleranze.",
-        "Umidità": "Influenza evaporazione, crescita e fioritura."
-    },
-    "Tecniche di coltivazione": {
-        "Semina diretta": "Piantare semi direttamente nel terreno.",
-        "Trapianto": "Far crescere piantine in vasi e poi spostarle.",
-        "Propagazione per talea": "Tagliare e radicare parti di pianta madre.",
-        "Coltivazione idroponica": "Coltivazione senza terra, nutrienti disciolti in acqua.",
-        "Coltivazione aeroponica": "Radici sospese in aria nebulizzate con nutrienti."
-    }
-}   
+        "Piante acquatiche": {
+            "Loto": {
+                "Ambiente": "Acqua dolce stagnante, laghi, stagni.",
+                "Parti": "Fiori, foglie, radici commestibili.",
+                "Curiosità": "Foglie idrorepellenti."
+            },
+            "Ninfea": {
+                "Ambiente": "Acqua dolce stagnante.",
+                "Parti": "Fiori decorativi.",
+                "Curiosità": "Galleggia grazie a rizomi."
+            },
+            "Ceratophyllum": {
+                "Ambiente": "Acqua dolce, acquari.",
+                "Funzione": "Ossigenazione acqua."
+            }
+        },
+        "Piante ornamentali": {
+            "Rosa": {
+                "Uso": "Decorativa e profumata.",
+                "Colore fiori": "Variabile (rosso, rosa, bianco)."
+            },
+            "Orchidea": {
+                "Uso": "Decorativa.",
+                "Ambiente": "Tropicale, umidità alta."
+            },
+            "Giglio": {
+                "Uso": "Decorativa e profumata.",
+                "Fioritura": "Primavera-estate."
+            }
+        },
+        "Ciclo vitale delle piante":{
+            "Semi": "Germinazione dipende da acqua, temperatura, luce.",
+            "Germoglio": "Sviluppo radici e foglie.",
+            "Pianta giovane": "Crescita vegetativa e fotosintesi.",
+            "Fioritura": "Formazione fiori e riproduzione sessuata.",
+            "Frutti e semi": "Produzione di semi per nuova generazione.",
+            "Morte": "Termine ciclo vitale, ritorno sostanze al suolo."
+        },
+        "Condizioni di crescita": {
+            "Luce": "Necessaria per fotosintesi; intensità e durata dipendono da specie.",
+            "Acqua": "Regolazione idrica essenziale; troppa o poca può uccidere.",
+            "Suolo": "pH, nutrienti, drenaggio influenzano salute.",
+            "Temperatura": "Specie tropicali, temperate o alpine hanno diverse tolleranze.",
+            "Umidità": "Influenza evaporazione, crescita e fioritura."
+        } 
+    } 
+} 
 
 # Funzione per interrogare la knowledge base
 def ask_bot(topic, subtopic=None, detail=None):
